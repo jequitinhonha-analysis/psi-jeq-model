@@ -7,9 +7,9 @@ Based on the comprehensive documentation provided—ranging from the theoretical
 
 ![Status](https://img.shields.io/badge/Status-Audit_Ready-success)
 ![Version](https://img.shields.io/badge/Version-3.2-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![R](https://img.shields.io/badge/R-%3E%3D4.3.0-blue)
 ![Stan](https://img.shields.io/badge/Stan-%3E%3D2.32.0-red)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > **"The crisis in Jequitinhonha is not just a distributive environmental conflict, but a tectonic clash between two irreconcilable ontologies: hydro-ontology (life as flow) and extractivist entropy (mineral as inertia)."**
 
