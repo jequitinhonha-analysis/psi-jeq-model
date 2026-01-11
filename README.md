@@ -145,16 +145,22 @@ This model is not neutral. It is a tool for **Planetary Justice**.
 *   **Transparency:** All assumptions, priors, and code are open to prevent "black box" policy-making.
 *   **Purpose:** This repository supports the concept of "Scientific Disobedience"—using rigorous data science to challenge institutional negligence and "necropolitical" resource extraction.
 
-### 📜 License
+## ⚖️ Licensing
 
-*   **Code:** MIT License
-*   **Data:** Creative Commons Attribution 4.0 International (CC-BY 4.0)
+This repository follows a dual-licensing model to accommodate both software and scientific data standards:
 
-### 📚 Citation
+### 1. Software Code
+All source code (R scripts, Stan models, Python utilities) is licensed under the **MIT License**.
+> *Permission is hereby granted, free of charge, to any person obtaining a copy of this software...*
 
-If you use this model or data, please cite:
+### 2. Data & Documentation
+All datasets (`data/`), documentation (`docs/`), and scientific figures are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-> **[Author Name et al.] (2026).** "$\Psi_{Yékit}$: A Bayesian Predictive Model of Systemic Collapse Under Extractivist Pressure – Evidence from Brazil’s Jequitinhonha Valley." *Science* (Under Review). DOI: 10.5281/zenodo.XXXXXX
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+**Attribution:**
+When using this data, please cite:
+> [TARGINO, RICARDO] et al. (2026). "Data from: Ψ_Yékit Model of Bioterritorial Instability." [Repository URL]. Licensed under CC BY 4.0.
 
 ---
 
