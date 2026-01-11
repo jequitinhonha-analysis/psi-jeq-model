@@ -1,5 +1,7 @@
 # psi-jeq-model
 Complete Technical Specification of the ΨJeq Model: The Bioterritorial Instability Parameter for the Jequitinhonha Valley
+
+
 This is a **Bayesian State-Space Model** (specifically a Dynamic Generalized Linear Model). It attempts to infer a latent time-series index ($\Psi_t$, representing "instability") based on the classic **HEV framework** (Hazard, Exposure, Vulnerability) and map that index to the probability of a binary failure event ($Y_t$) with a specific time lag ($L$).
 
 Here is an analysis of your model, including a critical fix for convergence and an optimized version of the code.
