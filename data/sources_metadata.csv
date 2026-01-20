@@ -1,0 +1,8 @@
+source_id,source_name,source_url,license,access_date,version,variables_derived,notes
+IBGE_GEO,IBGE Códigos Geográficos,https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/15761-areas-dos-municipios.html,CC0 1.0,2024-12-15,2023,"ibge_code, municipality_name",Malha municipal oficial do Brasil
+INMET,Instituto Nacional de Meteorologia,https://portal.inmet.gov.br/,CC BY 4.0,2025-01-10,2024,"H_precipitation_mm, H_temperature_max_c",Dados observados de estações meteorológicas
+ANA,Agência Nacional de Águas e Saneamento Básico,https://www.snirh.gov.br/,CC BY 4.0,2025-01-10,2024,H_precipitation_mm,Dados gridded de precipitação
+IBGE_CENSO,IBGE Censo Demográfico,https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-2022.html,CC BY 4.0,2024-12-20,Censos 2000/2010/2022,"E_pop_total, E_pop_rural_pct, E_water_access_pct, V_income_percapita_brl, V_poverty_rate_pct",Microdados do Censo anonimizados
+IBGE_EST,IBGE Estimativas Populacionais,https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html,CC BY 4.0,2024-12-20,2023,E_pop_total,Estimativas anuais intercensitárias
+DATASUS,Departamento de Informática do SUS,https://datasus.saude.gov.br/,CC BY 4.0,2025-01-08,2024,V_infant_mortality_rate,Sistemas SIM (mortalidade) e SINASC (nascidos vivos)
+MAPBIOMAS,MapBiomas Coleção 8,https://brasil.mapbiomas.org/,CC BY 4.0 or CC BY-SA 4.0,2024-11-30,Collection 8.0 (2023),"L_eucalyptus_area_ha, L_eucalyptus_pct_catchment","Land Use/Land Cover time series; VERIFICAR licença específica da Coleção 8 (CC BY vs CC BY-SA)"

@@ -1,0 +1,13 @@
+unit_code,unit_name,unit_symbol,dimension,conversion_to_si,notes
+dimensionless,Dimensionless,1,dimensionless,1,Adimensional ou código categórico
+mm,Millimeters,mm,length,0.001 m,Precipitação acumulada
+celsius,Degrees Celsius,°C,temperature,T(K) = T(°C) + 273.15,Temperatura
+persons,Persons,persons,count,1,Contagem de indivíduos
+percent,Percent,%,dimensionless,0.01,Fração expressa em percentual
+brl,Brazilian Real,BRL,currency,NA,Moeda brasileira (valores deflacionados para 2024)
+ha,Hectares,ha,area,10000 m²,Área
+per_1000_live_births,Per 1000 live births,per 1000,rate,0.001,Taxa de mortalidade infantil
+date,Date (YYYY-MM),YYYY-MM,time,NA,Formato ISO 8601 (ano-mês)
+integer,Integer,int,dimensionless,1,Número inteiro
+float,Floating point,float,dimensionless,1,Número de ponto flutuante
+string,String,str,dimensionless,NA,Texto

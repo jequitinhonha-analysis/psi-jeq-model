@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Se você usar PSI_YÉKIT, por favor cite esta release. Para reprodutibilidade, prefira o DOI da versão."
+title: "PSI_YÉKIT 1.0 (Ψ_YÉKIT): Modelo bayesiano de risco sistêmico hídrico no Jequitinhonha"
+type: software
+version: "1.0.0"
+date-released: "2026-01-20"
+url: "https://github.com/jequitinhonha-analysis/psi-jeq-model"
+contact:
+  - name: "Yékit"
+    email: "info@yekit.org"
+authors:
+  - family-names: "Targino"
+    given-names: "Ricardo"
+    affiliation: "Yékit (Medina, MG)"
+repository-code: "https://github.com/jequitinhonha-analysis/psi-jeq-model"
+abstract: >
+  PSI_YÉKIT 1.0 é um modelo bayesiano em espaço de estados (Ψ_YÉKIT) para estimar instabilidade hídrica latente
+  e probabilidades de falha sistêmica ao longo do tempo na bacia do Jequitinhonha, com auditabilidade e rastreabilidade.
+keywords:
+  - "Jequitinhonha"
+  - "Bayesian"
+  - "state-space"
+  - "risk model"
+  - "hydrology"
+  - "water security"
+  - "Minas Gerais"
+license: "CC-BY-4.0"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.SOFTWARE_DOI_AQUI"
+    description: "DOI da versão (Zenodo) — preencher após publicar a release no GitHub com integração Zenodo."
+preferred-citation:
+  type: generic
+  title: "PSI_YÉKIT 1.0 (Ψ_YÉKIT): Modelo bayesiano de risco sistêmico hídrico no Jequitinhonha"
+  authors:
+    - family-names: "Targino"
+      given-names: "Ricardo"
+  year: 2026
+  version: "1.0.0"
+  doi: "10.5281/zenodo.SOFTWARE_DOI_AQUI"
