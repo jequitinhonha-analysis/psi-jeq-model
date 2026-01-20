@@ -11,6 +11,19 @@ Based on the comprehensive documentation provided—ranging from the theoretical
 ![Stan](https://img.shields.io/badge/Stan-%3E%3D2.32.0-red)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+**Cite this software:**
+```bibtex
+@software{targino2026psiyekit,
+  author = {Targino, Ricardo},
+  title = {PSI_YÉKIT 1.0 (Ψ_YÉKIT): Modelo bayesiano de risco sistêmico hídrico no Jequitinhonha},
+  year = {2026},
+  version = {1.0.0},
+  url = {https://github.com/jequitinhonha-analysis/psi-jeq-model},
+  doi = {10.5281/zenodo.SOFTWARE_DOI_AQUI}
+}
+```
+Or use [CITATION.cff](CITATION.cff) for CFF format.
+
 > **"The crisis in Jequitinhonha is not just a distributive environmental conflict, but a tectonic clash between two irreconcilable ontologies: hydro-ontology (life as flow) and extractivist entropy (mineral as inertia)."**
 
 ### 📋 Overview
