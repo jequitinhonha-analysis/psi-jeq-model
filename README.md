@@ -123,6 +123,8 @@ Analysis of data through **December 2024** indicates:
 *   **Tipping Point:** Under the SSP2-4.5 scenario and current mining expansion plans, the "Point of No Return" (runaway collapse) is projected for **November 2026**.
 *   **The "Green" Paradox:** We document "NDC Inversion," where ~R$486 million in Climate Funds were used to finance water-intensive mining, effectively subsidizing local climate vulnerability.
 
+📄 **For comprehensive results and detailed analysis, see [RESULTADOS.md](RESULTADOS.md)** (in Portuguese).
+
 ---
 
 ### 📂 Repository Structure
@@ -146,6 +148,7 @@ Analysis of data through **December 2024** indicates:
 ├── docs/
 │   ├── Technical_Note_01_2026.pdf   # Biophysical Urgency Report
 │   └── Model_Specification_v3.2.pdf # Full mathematical details
+├── RESULTADOS.md         # Comprehensive presentation of model results (Portuguese)
 └── README.md
 ```
 
