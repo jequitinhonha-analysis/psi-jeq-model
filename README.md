@@ -116,7 +116,7 @@ $$ \text{logit}(p_t) = \Psi_{t-L} $$
 
 ### 📊 Key Findings (Jequitinhonha Case Study)
 
-Analysis of data through **December 2025** indicates:
+Analysis of data through **December 2024** indicates:
 
 *   **Current Risk Level:** The valley has surpassed the stability baseline by **82%** ($\Psi \approx 1.82$).
 *   **Urgency:** Probability of systemic failure in the next 12 months is **23%**.

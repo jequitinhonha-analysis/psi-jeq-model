@@ -49,7 +49,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
      - `observed`: Mês com estação ativa no município.
      - `interpolated`: Mês preenchido por interpolação temporal.
      - `estimated`: Mês derivado de grid ANA (sem estação local).
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** mm (milímetros).
 
 #### `H_temperature_max_c` (Temperatura máxima média mensal)
@@ -61,7 +61,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
   3. **Quality flag:**
      - `observed`: Mês com estação ativa no município.
      - `estimated`: Mês preenchido por EMA.
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** °C (graus Celsius).
 
 #### `H_spi_3m` (Índice de Precipitação Padronizado, 3 meses)
@@ -71,7 +71,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
   1. **Cálculo do SPI:** Distribuição Gamma ajustada a janelas de 3 meses, padronização (média 0, SD 1).
   2. **Interpretação:** Valores < -1.5 indicam seca severa; > 1.5 indicam precipitação extrema.
   3. **Quality flag:** `calculated` (derivado de precipitação).
-- **Período:** 2000-04 a 2023-12 (primeiros 3 meses não calculáveis).
+- **Período:** 2015-04 a 2024-12 (primeiros 3 meses não calculáveis).
 - **Unidade:** Adimensional.
 
 ### 3. Exposição (E - Exposure)
@@ -85,7 +85,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
      - `census`: Anos censitários (2000, 2010, 2022).
      - `estimated`: Estimativas oficiais IBGE (anos intercensitários).
      - `interpolated`: Interpolação mensal.
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** Pessoas (inteiro).
 
 #### `E_pop_rural_pct` (Percentual da população rural)
@@ -97,7 +97,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
   3. **Quality flag:**
      - `census`: Anos censitários.
      - `interpolated`: Interpolação mensal.
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** % (percentual).
 
 #### `E_water_access_pct` (Percentual de domicílios com acesso à rede de água)
@@ -111,7 +111,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
      - `census`: Anos censitários.
      - `interpolated`: Interpolação mensal.
      - `suppressed`: Valores suprimidos (k < 5).
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** % (percentual).
 
 ### 4. Vulnerabilidade (V - Vulnerability)
@@ -120,15 +120,15 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
 
 - **Fonte:** IBGE_CENSO (2000, 2010, 2022).
 - **Transformações:**
-  1. **Deflação:** Valores convertidos para BRL 2023 usando IPCA (IBGE).
+  1. **Deflação:** Valores convertidos para BRL 2024 usando IPCA (IBGE).
   2. **Interpolação temporal:** Linear mensal entre censos.
   3. **Supressão:** Valores suprimidos se população < 5 (k-anonymity).
   4. **Quality flag:**
      - `census`: Anos censitários.
      - `interpolated`: Interpolação mensal.
      - `suppressed`: Valores suprimidos (k < 5).
-- **Período:** 2000-01 a 2023-12.
-- **Unidade:** BRL (Reais, 2023).
+- **Período:** 2015-01 a 2024-12.
+- **Unidade:** BRL (Reais, 2024).
 
 #### `V_poverty_rate_pct` (Taxa de pobreza)
 
@@ -141,7 +141,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
      - `census`: Anos censitários.
      - `interpolated`: Interpolação mensal.
      - `suppressed`: Valores suprimidos (k < 5).
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** % (percentual).
 
 #### `V_infant_mortality_rate` (Taxa de mortalidade infantil)
@@ -154,7 +154,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
   4. **Quality flag:**
      - `observed`: Calculado com dados anuais completos.
      - `suppressed`: Valores suprimidos (k < 5).
-- **Período:** 2001-01 a 2022-12 (dados disponíveis até 2022).
+- **Período:** 2016-01 a 2024-12 (dados disponíveis até 2024; janela de 3 anos inicia em 2016).
 - **Unidade:** por 1000 nascidos vivos.
 
 ### 5. Uso do solo a montante (L - Land use upstream)
@@ -165,12 +165,12 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
 - **Transformações:**
   1. **Delimitação de bacias:** Direção de fluxo (FlowDir) a partir de DEM SRTM (30m).
   2. **Agregação upstream:** Acumulação de pixels de eucalipto a montante de cada município (seguindo rede de drenagem).
-  3. **Resolução temporal:** Anual (MapBiomas fornece mapas anuais 2000-2023).
+  3. **Resolução temporal:** Anual (MapBiomas fornece mapas anuais; utilizados 2015-2024).
   4. **Replicação mensal:** Valor anual replicado para todos os meses do ano.
   5. **Quality flag:**
      - `observed`: Ano com mapa MapBiomas disponível.
      - `estimated`: Interpolação para anos sem dados (se aplicável).
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** ha (hectares).
 
 ⚠️ **ATENÇÃO:** A licença do MapBiomas Collection 8 varia. Se for CC BY-SA 4.0, o dataset deve ser CC BY-SA 4.0.
@@ -181,7 +181,7 @@ Todas as fontes utilizadas são **públicas e institucionais**. Consulte [source
 - **Transformações:**
   1. **Cálculo:** `(L_eucalyptus_area_ha / área total upstream) * 100`.
   2. **Quality flag:** `calculated`.
-- **Período:** 2000-01 a 2023-12.
+- **Período:** 2015-01 a 2024-12.
 - **Unidade:** % (percentual).
 
 ### 6. Variável latente (Ψ - Latent state)

@@ -8,7 +8,7 @@
 
 ## Descrição
 
-O **PSI_YÉKIT 1.0** é um dataset mensal, em nível municipal, para o Vale do Jequitinhonha (Minas Gerais, Brasil), cobrindo o período de **2000-01 a 2023-12**. Ele foi projetado para alimentar o modelo bayesiano de espaço de estados PSI_YÉKIT, que estima risco sistêmico hídrico e seus efeitos sociais.
+O **PSI_YÉKIT 1.0** é um dataset mensal, em nível municipal, para o Vale do Jequitinhonha (Minas Gerais, Brasil), cobrindo o período de **2015-01 a 2024-12**. Ele foi projetado para alimentar o modelo bayesiano de espaço de estados PSI_YÉKIT, que estima risco sistêmico hídrico e seus efeitos sociais.
 
 O dataset organiza variáveis observáveis em **quatro dimensões**:
 
@@ -86,7 +86,7 @@ Todas as variáveis derivadas (interpolações, cálculos, agregações upstream
 
 **Citação recomendada:**
 
-> Yékit (2026). PSI_YÉKIT 1.0 Dataset: Municipal-level water risk indicators for the Jequitinhonha Valley, Brazil (2000-2023). Zenodo. DOI: `10.5281/zenodo.DATASET_DOI_AQUI`
+> Yékit (2026). PSI_YÉKIT 1.0 Dataset: Municipal-level water risk indicators for the Jequitinhonha Valley, Brazil (2015-2024). Zenodo. DOI: `10.5281/zenodo.DATASET_DOI_AQUI`
 
 **Software associado:**
 
@@ -127,6 +127,6 @@ As principais fontes de dados utilizadas são:
 
 ### v1.0 (2026-01-20)
 - Primeira versão pública do dataset PSI_YÉKIT.
-- Cobertura: 2000-01 a 2023-12, municípios do Vale do Jequitinhonha.
+- Cobertura: 2015-01 a 2024-12, municípios do Vale do Jequitinhonha.
 - Variáveis: H (3), E (3), V (3), L (2), Ψ (1 latente).
 - Formato tidy/long, k-anonymity k≥5, documentação completa.
