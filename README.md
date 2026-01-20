@@ -145,22 +145,34 @@ This model is not neutral. It is a tool for **Planetary Justice**.
 *   **Transparency:** All assumptions, priors, and code are open to prevent "black box" policy-making.
 *   **Purpose:** This repository supports the concept of "Scientific Disobedience"—using rigorous data science to challenge institutional negligence and "necropolitical" resource extraction.
 
-## ⚖️ Licensing
+## ⚖️ Licenciamento
 
-This repository follows a dual-licensing model to accommodate both software and scientific data standards:
+Este repositório adota **licenciamento por artefato** para equilibrar proteção de autoria em textos e máxima reutilização em código/dados:
 
-### 1. Software Code
-All source code (R scripts, Stan models, Python utilities) is licensed under the **MIT License**.
-> *Permission is hereby granted, free of charge, to any person obtaining a copy of this software...*
+### 1) Textos e relatórios — CC BY 4.0
+Aplicável a:
+- `README.md`
+- `*.pdf` (especificação técnica, notas técnicas, anexos)
+- Documentação descritiva e materiais editoriais
 
-### 2. Data & Documentation
-All datasets (`data/`), documentation (`docs/`), and scientific figures are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+**Licença:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
+https://creativecommons.org/licenses/by/4.0/
 
-To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+**Atribuição obrigatória:**
+> TARGINO, RICARDO et al. (2026). "Ψ_Yékit: Modelo Bayesiano de Instabilidade Bioterritorial." [URL do repositório].
 
-**Attribution:**
-When using this data, please cite:
-> [TARGINO, RICARDO] et al. (2026). "Data from: Ψ_Yékit Model of Bioterritorial Instability." [Repository URL]. Licensed under CC BY 4.0.
+### 2) Código e dados — CC0 1.0
+Aplicável a:
+- Qualquer código (R scripts, Stan models, utilitários Python, etc.)
+- Qualquer dado (`data/`, `datasets/`, outputs derivados)
+
+**Licença:** CC0 1.0 Universal (Public Domain Dedication)  
+https://creativecommons.org/publicdomain/zero/1.0/
+
+**Implicação:** Estes artefatos podem ser usados, modificados e distribuídos sem restrições de atribuição.
+
+### Exceções
+Se algum arquivo específico tiver licença diferente, será indicado no próprio cabeçalho (código) ou listado em [LICENSES.md](LICENSES.md).
 
 ---
 
