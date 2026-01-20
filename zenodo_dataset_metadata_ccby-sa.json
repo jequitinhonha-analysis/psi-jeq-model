@@ -1,0 +1,81 @@
+{
+  "title": "PSI_YÉKIT 1.0 Dataset: Municipal-level water risk indicators for the Jequitinhonha Valley, Brazil (2000-2023)",
+  "upload_type": "dataset",
+  "description": "<p>The <strong>PSI_YÉKIT 1.0 Dataset</strong> provides monthly, municipality-level indicators for water-related systemic risk in the Jequitinhonha Valley (Minas Gerais, Brazil) from 2000-01 to 2023-12.</p>\n\n<p>The dataset organizes observable variables into four dimensions:</p>\n<ul>\n<li><strong>H (Hazard)</strong>: Precipitation, temperature, drought indices (SPI).</li>\n<li><strong>E (Exposure)</strong>: Total population, rural population, water access.</li>\n<li><strong>V (Vulnerability)</strong>: Per capita income, poverty rate, infant mortality rate.</li>\n<li><strong>L (Land use upstream)</strong>: Eucalyptus plantation area upstream.</li>\n</ul>\n\n<p>The dataset also includes a <strong>latent variable Ψ(t)</strong> (systemic risk state), which is <strong>not directly observed</strong> but <strong>inferred</strong> by the PSI_YÉKIT Bayesian state-space model. Ψ(t) is distributed in a separate file (<code>psi_latent.csv</code>) to emphasize its inferred nature.</p>\n\n<p><strong>Key features:</strong></p>\n<ul>\n<li><strong>Coverage:</strong> 2000-01 to 2023-12, municipalities in the Jequitinhonha Valley.</li>\n<li><strong>Format:</strong> Tidy/long CSV (UTF-8, comma-separated, decimal point).</li>\n<li><strong>Anonymization:</strong> k-anonymity (k ≥ 5) compliance with Brazil's LGPD (Lei Geral de Proteção de Dados).</li>\n<li><strong>Quality flags:</strong> Each record includes a <code>quality_flag</code> (observed, estimated, interpolated, calculated, suppressed, census).</li>\n<li><strong>Provenance:</strong> Full documentation of sources, derivation methods, and transformations.</li>\n</ul>\n\n<p><strong>Files included:</strong></p>\n<ul>\n<li><code>psi_yekit_v1_observables.csv</code> — Observable variables (H, E, V, L)</li>\n<li><code>psi_yekit_v1_psi_latent.csv</code> — Latent state Ψ(t) (inferred)</li>\n<li><code>DATA_DICTIONARY.csv</code> — Complete data dictionary</li>\n<li><code>sources_metadata.csv</code> — Metadata of data sources</li>\n<li><code>units_metadata.csv</code> — Metadata of units of measurement</li>\n<li><code>checksums_sha256.txt</code> — SHA-256 checksums</li>\n</ul>\n\n<p><strong>Documentation:</strong></p>\n<ul>\n<li><code>README_DATA.md</code> — Usage guide and warnings about Ψ latent variable</li>\n<li><code>ANONYMIZATION.md</code> — LGPD/k-anonymity procedures and quality flag vocabulary</li>\n<li><code>PROVENANCE.md</code> — Traceability and derivation decisions</li>\n</ul>\n\n<p><strong>Associated software:</strong> PSI_YÉKIT Bayesian model (DOI: <code>10.5281/zenodo.SOFTWARE_DOI_AQUI</code>)</p>\n\n<p><strong>Citation:</strong> Yékit (2026). PSI_YÉKIT 1.0 Dataset: Municipal-level water risk indicators for the Jequitinhonha Valley, Brazil (2000-2023). Zenodo. DOI: <code>10.5281/zenodo.DATASET_DOI_AQUI</code></p>",
+  "creators": [
+    {
+      "name": "Yékit",
+      "affiliation": "Yékit, Medina, Minas Gerais, Brazil"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "water risk",
+    "systemic risk",
+    "Jequitinhonha Valley",
+    "Brazil",
+    "Bayesian model",
+    "drought",
+    "vulnerability",
+    "exposure",
+    "land use",
+    "eucalyptus",
+    "climate hazard",
+    "LGPD",
+    "k-anonymity",
+    "municipal data",
+    "time series"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.SOFTWARE_DOI_AQUI",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.0",
+  "publication_date": "2026-01-20",
+  "subjects": [
+    {
+      "term": "Water resources",
+      "identifier": "http://id.loc.gov/authorities/subjects/sh85145510",
+      "scheme": "url"
+    },
+    {
+      "term": "Risk assessment",
+      "identifier": "http://id.loc.gov/authorities/subjects/sh85114200",
+      "scheme": "url"
+    },
+    {
+      "term": "Drought",
+      "identifier": "http://id.loc.gov/authorities/subjects/sh85039551",
+      "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "IBGE - Instituto Brasileiro de Geografia e Estatística",
+      "type": "DataCollector"
+    },
+    {
+      "name": "INMET - Instituto Nacional de Meteorologia",
+      "type": "DataCollector"
+    },
+    {
+      "name": "ANA - Agência Nacional de Águas e Saneamento Básico",
+      "type": "DataCollector"
+    },
+    {
+      "name": "DATASUS - Departamento de Informática do SUS",
+      "type": "DataCollector"
+    },
+    {
+      "name": "MapBiomas",
+      "type": "DataCollector"
+    }
+  ],
+  "language": "eng",
+  "notes": "This dataset was created to support the PSI_YÉKIT Bayesian state-space model for estimating systemic water risk in the Jequitinhonha Valley, Brazil. All data are anonymized following k-anonymity (k ≥ 5) and aggregated at the municipality-month level. The latent variable Ψ(t) is inferred by the model and should not be used as a direct empirical measurement. For details on the model, see the associated software repository.\n\nIMPORTANT: This dataset is licensed under CC BY-SA 4.0 because it includes derived variables from MapBiomas Collection 8, which is distributed under CC BY-SA 4.0 in certain contexts. If you use this dataset, you must also license your derivative work under CC BY-SA 4.0 or a compatible ShareAlike license."
+}
