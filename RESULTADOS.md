@@ -21,7 +21,7 @@ O modelo **PSI_YÉKIT** ($\Psi_{Yékit}$) é um sistema bayesiano de alerta prec
 | **Índice de Instabilidade Atual** | $\Psi \approx 1.82$ | O vale ultrapassou a linha de base de estabilidade em **82%** |
 | **Probabilidade de Falha (12 meses)** | 23% | Risco substancial de colapso sistêmico no próximo ano |
 | **Ponto de Não-Retorno Projetado** | Novembro 2026 | Sob cenário SSP2-4.5 e expansão minerária atual |
-| **"Inversão NDC"** | ~R$ 486 milhões | Fundos climáticos financiando mineração intensiva em água |
+| **"Inversão NDC"** | R$ 487 milhões | Fundos climáticos financiando mineração intensiva em água |
 
 ---
 
