@@ -6,7 +6,7 @@
 **Licença:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 **Citação:** TARGINO, RICARDO et al. (2026). "Ψ_Yékit: Modelo Bayesiano de Instabilidade Bioterritorial." https://github.com/jequitinhonha-analysis/psi-jeq-model  
 **Período de Análise:** Janeiro de 2015 a Dezembro de 2024 (120 meses)  
-**Última Atualização:** Janeiro de 2026
+**Última Atualização:** Fevereiro de 2026
 
 ---
 
@@ -332,4 +332,4 @@ Para reportar problemas ou sugerir melhorias: [Abrir um Issue](https://github.co
 ---
 
 **Licença:** Este documento está licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-**Última Atualização:** 20 de Janeiro de 2026
+**Última Atualização:** 26 de Fevereiro de 2026
